@@ -1,0 +1,22 @@
+The next selector we're going to look at is the DESCENDANT selector.
+
+DESCENDANT SELECTOR
+Select all <a>'s that are nested inside an <li>
+
+li a {
+    color: teal;
+}
+
+(NB: The absence of a comma means that the anchor tag is 
+somewhere nested within or under the li.
+
+If there was a comma, that is:
+
+li, a {
+    color: teal;
+}
+
+...then that would mean, that we're making all li's and anchor
+tags have a teal color.
+
+)
